@@ -95,9 +95,9 @@ def index():
 # n8n上的RAG
 def RAG(text):
     # 測試用網址 --這邊需要更改
-    # n8n_url = 'http://localhost:5678/webhook-test/170accfe-f167-4f24-813e-63b437adaf29'
+    # n8n_url = 'http://localhost:5678/webhook-test/'
     # 生產用網址
-    n8n_url = 'http://localhost:5678/webhook/170accfe-f167-4f24-813e-63b437adaf29'
+    n8n_url = 'http://localhost:5678/webhook/'
 
     data = {
         "text": text  # 將傳遞的文字作為參數傳送
